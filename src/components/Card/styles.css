@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Quicksand:wght@400;500&display=swap');
+
+:root {
+  --salmon-color: #F24F13;
+  --clear-green-color: #99CC33;
+  --green-color: #419133;
+  --white-color: #fff;
+  --black-color: #000;
+  --clear-gray-color: #eeeeee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+.vive {
+  color: var(--salmon-color);
+}
+
+.cmarca {
+  color: var(--clear-green-color);
+}
+
+.col {
+  color: var(--green-color);
+  flex: none;
+}
+
+.wrapper {
+  margin: 0 90px;
+}
+
+.first {
+  background-color: var(--salmon-color);
+}
+
+.second {
+  background-color: var(--clear-green-color);
+}
+
+.third {
+  background-color: var(--green-color);
+}
+
+.hero .containers img {
+  width: 100%;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.partners img {
+  width: 150px;
+}
+
+.content {
+  margin: 20px;
+}
+
+.content h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.content h2 span {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 35px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  position: relative;
+}
+
+.cards .card {
+  height: 250px;
+  max-width: 317px;
+  width: 100%;
+  margin: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--white-color);
+  border-radius: 9px;
+  border: none;
+  background-size: contain;
+}
+
+.card .cardInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.card .logoHouse img {
+  width: 88px;
+  height: 88px;
+  margin: 12px;
+}
+
+.card .location {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card .location img {
+  margin-right: 5px;
+  width: 11px;
+  height: 14px;
+}
+
+.card h3 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 23px;
+}
+
+.card h4 {
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.card .cardButton {
+  margin: -15px;
+}
+
+.card .cardButton button{
+  border-radius: 8px;
+  text-transform: uppercase;
+  color: var(--white-color);
+  padding: 8px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid var(--white-color);
+}
+
+.card .cardButton button:hover {
+  transform: scale(1.01);
+  transition: .1s;
+}
+
+.cardButton img {
+  margin-left: 5px;
+  width: 13px;
+  height: 17px;
+}
+
+.contentCards .finalCard h3 {
+  color: var(--white-color);
+  position: sticky;
+  z-index: 5;text-align: center;
+  margin: 50px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+
+.modal-content {
+  border: none;
+  border-radius: 20px;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--white-color);
+  border-bottom: none;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.modal-content .btn-close {
+  background-image: url('./assets/images/close.png');
+}
+
+.modal-header h5 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.modal-header figure img {
+  width: 17px;
+  height: 22px;
+  margin-right: 5px;
+}
+
+.modal-header .location {
+  display: flex;
+  align-items: center;
+}
+
+.modal-header h4 {
+  font-size: 13px;
+}
+
+.modal-body {
+  padding: 0;
+  color: var(--black-color);
+  font-weight: 600;
+}
+
+.modal-body .banner img {
+  width: 100%;
+  margin: 0;
+}
+
+.modal-body .info {
+  margin: 35px 60px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.modal-body .info .info-video {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.modal-body .info .info-video iframe {
+  max-width: 700px;
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.modal-body .info .description p {
+  max-width: 350px;
+  width: 100%;
+}
+
+.divisor {
+  width: 50px;
+  margin: 10px 0;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contactInfo .mail a, .contactInfo .web a  {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.contactInfo .facebook a, .contactInfo .instagram a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+.phone a {
+  text-decoration: none;
+  color: var(--black-color);
+  margin-left: 5px;
+}
+
+.modal-body .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.contact h3 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.contactInfo .icon {
+  margin-right: 5px;
+}
+
+.modal-body .mainImg {
+  background-color: var(--clear-gray-color);
+  text-align: center;
+}
+
+.modal-body .mainImg picture img {
+  margin: 30px auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+.modal-body .carousel {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.modal-body .location {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 35px 0;
+}
+
+.location h5 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: var(--white-color);
+}
+
+.modal-footer button {
+  margin: 0 auto;
+  background-color: var(--salmon-color);
+  border: none;
+}
+
+.footer {
+  margin: -400px 0;
+}
+
+.footer img {
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (max-width: 810px){
+  .wrapper {
+    width: 100%;
+    margin: 0;
+  }
+  .content h2 {
+    font-size: 20px;
+  }
+  .modal-body .info {
+    margin: 35px 30px;
+  }
+  .footer {
+    margin: -200px 0;
+  }
+}
