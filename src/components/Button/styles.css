@@ -1,0 +1,8 @@
+.button {
+  margin-block: 10px;
+  padding-block: 10px;
+  padding-inline: 40px;
+  border-radius: 5px;
+  border: 1px solid var(--salmon-color);
+  text-transform: uppercase;
+}
