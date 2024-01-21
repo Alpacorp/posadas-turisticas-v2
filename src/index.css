@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat:wght@200;300;400;500&family=Quicksand:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 :root {
-  --salmon-color: #F24F13;
-  --clear-green-color: #99CC33;
-  --green-color: #419133;
-  --white-color: #fff;
-  --black-color: #000;
-  --clear-gray-color: #eeeeee;
+  --font-gloria: 'Gloria Hallelujah', cursive;
+  --font-quicksand: 'Quicksand', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
 }
 
 * {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: 'Quicksand', sans-serif;
+  font-family: var(--font-quicksand);
 }
