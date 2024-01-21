@@ -1,4 +1,4 @@
-import { Card } from "@components/Card";
+import { Card } from "@containers/Card";
 import data from "@data/data.json";
 
 export const App = () => {
@@ -7,6 +7,7 @@ export const App = () => {
       {data.map((card) => (
         <Card
           key={card.id}
+          id={card.id}
           background={card.background}
           title={card.title}
           location={card.location}
