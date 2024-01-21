@@ -7,12 +7,12 @@ export default defineConfig({
   resolve: {
     alias: {
       "@public": "/public",
+      "@assets": "/public/assets",
       "@": "/src",
       "@components": "/src/components",
       "@pages": "/src/pages",
       "@utils": "/src/utils",
       "@hooks": "/src/hooks",
-      "@assets": "/src/assets",
       "@data": "/src/data",
     },
   },

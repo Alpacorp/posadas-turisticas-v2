@@ -1,6 +1,6 @@
 import { Button } from "@components/Button";
 import { FC } from "react";
-import iconGps from "@public/assets/images/icon_gps_blanco.png";
+import iconGps from "@assets/images/icon_gps_blanco.png";
 
 interface CardProps {
   background: string;
