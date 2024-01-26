@@ -3,168 +3,168 @@
     "id": 1,
     "title": "Hacienda la Leona",
     "location": "Ubalá",
-    "background": "/src/assets/images/leona/foto_1_hacienda_la_leona.jpg",
-    "profile": "/src/assets/images/leona/logo_la_leona.png"
+    "background": "./assets/images/leona/foto_1_hacienda_la_leona.jpg",
+    "profile": "./assets/images/leona/logo_la_leona.png"
   },
   {
     "id": 2,
     "title": "Casa Trebol",
     "location": "Venecia",
-    "background": "./src/assets/images/trebol/foto_casa_trebol.png",
-    "profile": "./src/assets/images/trebol/logo_casa_trebol.png"
+    "background": "./assets/images/trebol/foto_casa_trebol.png",
+    "profile": "./assets/images/trebol/logo_casa_trebol.png"
   },
   {
     "id": 3,
     "title": "Mikhuna",
     "location": "Anolaima",
-    "background": "./src/assets/images/mikhuna/foto_3_mikhuna.png",
-    "profile": "./src/assets/images/mikhuna/logo_mikhuna.png"
+    "background": "./assets/images/mikhuna/foto_3_mikhuna.png",
+    "profile": "./assets/images/mikhuna/logo_mikhuna.png"
   },
   {
     "id": 4,
     "title": "Finca el Laguito",
     "location": "La Peña",
-    "background": "./src/assets/images/laguito/foto_4_el_laguito.png",
-    "profile": "./src/assets/images/laguito/logo_el_laguito.png"
+    "background": "./assets/images/laguito/foto_4_el_laguito.png",
+    "profile": "./assets/images/laguito/logo_el_laguito.png"
   },
   {
     "id": 5,
     "title": "Portal de las Cascadas",
     "location": "La Vega",
-    "background": "./src/assets/images/cascadas/foto_5_portal_cascadas.png",
-    "profile": "./src/assets/images/cascadas/logo_portal_cascadas.png"
+    "background": "./assets/images/cascadas/foto_5_portal_cascadas.png",
+    "profile": "./assets/images/cascadas/logo_portal_cascadas.png"
   },
   {
     "id": 6,
     "title": "El Cielo",
     "location": "Tena",
-    "background": "./src/assets/images/cielo/logo_6_el_cielo.png",
-    "profile": "./src/assets/images/cielo/logo-el-cielo-en-tena.png"
+    "background": "./assets/images/cielo/logo_6_el_cielo.png",
+    "profile": "./assets/images/cielo/logo-el-cielo-en-tena.png"
   },
   {
     "id": 7,
     "title": "Museo Campesino",
     "location": "Gachancipá",
-    "background": "./src/assets/images/campesino/foto_museo_campesino.png",
-    "profile": "./src/assets/images/campesino/logo_museo_campesino.png"
+    "background": "./assets/images/campesino/foto_museo_campesino.png",
+    "profile": "./assets/images/campesino/logo_museo_campesino.png"
   },
   {
     "id": 8,
     "title": "Cabañas Paraíso",
     "location": "Sesquilé",
-    "background": "./src/assets/images/paraiso/foto_8_cabanas_paraiso.png",
-    "profile": "./src/assets/images/paraiso/logos_paraiso.png"
+    "background": "./assets/images/paraiso/foto_8_cabanas_paraiso.png",
+    "profile": "./assets/images/paraiso/logos_paraiso.png"
   },
   {
     "id": 9,
     "title": "Cabañas y Camping Santana",
     "location": "Sesquilé",
-    "background": "./src/assets/images/santana/logo_9_cabanas_santana.png",
-    "profile": "./src/assets/images/santana/logo_cabanas_santana.png"
+    "background": "./assets/images/santana/logo_9_cabanas_santana.png",
+    "profile": "./assets/images/santana/logo_cabanas_santana.png"
   },
   {
     "id": 10,
     "title": "Viotá Extreme",
     "location": "Viotá",
-    "background": "./src/assets/images/viota/foto_viota_extreme.png",
-    "profile": "./src/assets/images/viota/logo_viota_extreme.png"
+    "background": "./assets/images/viota/foto_viota_extreme.png",
+    "profile": "./assets/images/viota/logo_viota_extreme.png"
   },
   {
     "id": 11,
     "title": "Glamping Tres Piedras",
     "location": "Vereda La Ruidosa , Viotá",
-    "background": "./src/assets/images/tres-piedras/tres-piedras-back.jpg",
-    "profile": "./src/assets/images/tres-piedras/tres-piedras-icono.jpg"
+    "background": "./assets/images/tres-piedras/tres-piedras-back.jpg",
+    "profile": "./assets/images/tres-piedras/tres-piedras-icono.jpg"
   },
   {
     "id": 12,
     "title": "Altos del Dorado",
     "location": "Tena",
-    "background": "./src/assets/images/dorado/dorado-back.jpg",
-    "profile": "./src/assets/images/dorado/altos-2.jpg"
+    "background": "./assets/images/dorado/dorado-back.jpg",
+    "profile": "./assets/images/dorado/altos-2.jpg"
   },
   {
     "id": 13,
     "title": "Posada Finca la Aurora",
     "location": "Caqueza",
-    "background": "./src/assets/images/aurora/aurora-back.jpg",
-    "profile": "./src/assets/images/aurora/aurora-2.jpg"
+    "background": "./assets/images/aurora/aurora-back.jpg",
+    "profile": "./assets/images/aurora/aurora-2.jpg"
   },
   {
     "id": 14,
     "title": "Posada Quininí Zimbabwe",
     "location": "Tibacuy",
-    "background": "./src/assets/images/quinini/quinini-back.jpg",
-    "profile": "./src/assets/images/quinini/quinini-4.jpg"
+    "background": "./assets/images/quinini/quinini-back.jpg",
+    "profile": "./assets/images/quinini/quinini-4.jpg"
   },
   {
     "id": 15,
     "title": "Posada de Lu Lu",
     "location": "Choachí",
-    "background": "./src/assets/images/lulu/lulu-4.jpg",
-    "profile": "./src/assets/images/lulu/lulu.jpg"
+    "background": "./assets/images/lulu/lulu-4.jpg",
+    "profile": "./assets/images/lulu/lulu.jpg"
   },
   {
     "id": 16,
     "title": "Posada Agroturística EL Portal",
     "location": "Gachetá",
-    "background": "./src/assets/images/portal/portal-1.jpg",
-    "profile": "./src/assets/images/portal/portal-3.jpg"
+    "background": "./assets/images/portal/portal-1.jpg",
+    "profile": "./assets/images/portal/portal-3.jpg"
   },
   {
     "id": 17,
     "title": "Posada Termales Aguas Calientes",
     "location": "Paratebueno",
-    "background": "./src/assets/images/aguas/portada-aguas-calientes.jpeg",
-    "profile": "./src/assets/images/aguas/logo-aguas-calientes.jpeg"
+    "background": "./assets/images/aguas/portada-aguas-calientes.jpeg",
+    "profile": "./assets/images/aguas/logo-aguas-calientes.jpeg"
   },
   {
     "id": 18,
     "title": "Posada El Trapiche Petaquero",
     "location": "Villeta",
-    "background": "./src/assets/images/trapiche/portada-trapiche-petaquero.jpeg",
-    "profile": "./src/assets/images/trapiche/logo-trapiche-petaquero.jpeg"
+    "background": "./assets/images/trapiche/portada-trapiche-petaquero.jpeg",
+    "profile": "./assets/images/trapiche/logo-trapiche-petaquero.jpeg"
   },
   {
     "id": 19,
     "title": "Posada Turística San Miguel Cachipay",
     "location": "Cachipay",
-    "background": "./src/assets/images/san-miguel/portada-san-miguel.jpeg",
-    "profile": "./src/assets/images/san-miguel/logo-san-miguel.jpeg"
+    "background": "./assets/images/san-miguel/portada-san-miguel.jpeg",
+    "profile": "./assets/images/san-miguel/logo-san-miguel.jpeg"
   },
   {
     "id": 20,
     "title": "Posada Turística la Ceiba",
     "location": "Vergara",
-    "background": "./src/assets/images/ceiba/portada-ceiba.jpeg",
-    "profile": "./src/assets/images/ceiba/logo-ceiba.jpeg"
+    "background": "./assets/images/ceiba/portada-ceiba.jpeg",
+    "profile": "./assets/images/ceiba/logo-ceiba.jpeg"
   },
   {
     "id": 21,
     "title": "Posada Trapiche Los Abuelos",
     "location": "Villeta",
-    "background": "./src/assets/images/abuelos/portada-abuelos.jpeg",
-    "profile": "./src/assets/images/abuelos/logo-abuelos.jpeg"
+    "background": "./assets/images/abuelos/portada-abuelos.jpeg",
+    "profile": "./assets/images/abuelos/logo-abuelos.jpeg"
   },
   {
     "id": 22,
     "title": "Posada Las Bromelias",
     "location": "Silvania",
-    "background": "./src/assets/images/bromelias/portada-bromelias.jpg",
-    "profile": "./src/assets/images/bromelias/logo-bromelias.jpg"
+    "background": "./assets/images/bromelias/portada-bromelias.jpg",
+    "profile": "./assets/images/bromelias/logo-bromelias.jpg"
   },
   {
     "id": 23,
     "title": "Posada 5ta SARoCO",
     "location": "Vía Silvania",
-    "background": "./src/assets/images/saroco/portada-saroco-1.jpg",
-    "profile": "./src/assets/images/saroco/saroco-1.jpg"
+    "background": "./assets/images/saroco/portada-saroco-1.jpg",
+    "profile": "./assets/images/saroco/saroco-1.jpg"
   },
   {
     "id": 24,
     "title": "Posada Ecopalacio Chingaza",
     "location": "Guasca",
-    "background": "./src/assets/images/ecopalacio/portada-ecopalacio-1.jpeg",
-    "profile": "./src/assets/images/ecopalacio/logo-ecopalacio.png"
+    "background": "./assets/images/ecopalacio/portada-ecopalacio-1.jpeg",
+    "profile": "./assets/images/ecopalacio/logo-ecopalacio.png"
   }
 ]
