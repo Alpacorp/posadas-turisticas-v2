@@ -24,6 +24,7 @@
       "@layouts/*": ["./src/layouts/*"],
       "@pages/*": ["./src/pages/*"],
       "@data/*": ["./src/data/*"],
+      "@context/*": ["./src/context/*"],
     },
   },
   "include": ["src"],
