@@ -3,8 +3,8 @@
     "id": 1,
     "title": "Hacienda la Leona",
     "location": "Ubalá",
-    "background": "./src/assets/images/leona/foto_1_hacienda_la_leona.jpg",
-    "profile": "./src/assets/images/leona/logo_la_leona.png"
+    "background": "/src/assets/images/leona/foto_1_hacienda_la_leona.jpg",
+    "profile": "/src/assets/images/leona/logo_la_leona.png"
   },
   {
     "id": 2,
