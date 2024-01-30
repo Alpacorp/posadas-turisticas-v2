@@ -13,11 +13,7 @@ export const CardLayout: FC<CardLayoutProps> = ({
   background,
   id,
 }) => {
-  const { setShowModal, showModal, setIdModal, idModal } = useContext(Context);
-
-  console.log("showModal", showModal);
-  console.log("idModal", idModal);
-
+  const { setShowModal, setIdModal } = useContext(Context);
   return (
     <div
       className={`flex flex-col justify-end items-center h-80 max-w-96 w-full bg-no-repeat bg-cover bg-center rounded-md shadow-md relative`}
@@ -31,7 +27,6 @@ export const CardLayout: FC<CardLayoutProps> = ({
       </div>
       <Button
         onClick={() => {
-          console.log(id);
           setShowModal(true);
           setIdModal(id);
         }}
