@@ -2,6 +2,7 @@ import React, { FC, useContext, useEffect, useState } from "react";
 import { Context } from "@context/Context";
 
 import data from "@data/data.json";
+import { Description } from "@components/Description";
 
 interface ModalData {
   id: number;
@@ -9,6 +10,7 @@ interface ModalData {
   background: string;
   profile: string;
   location: string;
+  description?: string[] | string;
 }
 
 export const ModalLayout: FC = React.memo(() => {
@@ -57,6 +59,14 @@ export const ModalLayout: FC = React.memo(() => {
             <h3 className="text-base leading-none max-w-52 w-full font-quicksand">
               {modalData?.location}, Cundinamarca
             </h3>
+            <div>
+              {modalData?.description && (
+                <Description
+                  id={modalData.id}
+                  description={modalData?.description}
+                />
+              )}
+            </div>
           </div>
         </div>
         <button

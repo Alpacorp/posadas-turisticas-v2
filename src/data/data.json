@@ -4,14 +4,23 @@
     "title": "Hacienda la Leona",
     "location": "Ubalá",
     "background": "./assets/images/leona/foto_1_hacienda_la_leona.jpg",
-    "profile": "./assets/images/leona/logo_la_leona.png"
+    "profile": "./assets/images/leona/logo_la_leona.png",
+    "description": ["La Hacienda la Leona pertenece a la Ruta del Agua, proyecto descrito por la Gobernación de Cundinamarca, marcándonos como un centro rico en fuentes hídricas; la hacienda está ubicada en la vereda Algodones en el piedemonte llanero donde limita al occidente con el Embalse del Guavio, al suroccidente con el PNN Chingaza, al oriente con Medina y al norte con el río Guavio.", "Comprende tanto bosque seco tropical como bosque húmedo premontano y bosque de niebla; características ideales para la proliferación de la biodiversidad. Es una zona rica en fauna y flora. Se cuenta con un reporte por encima de las doscientas especies de aves, entre las que se destancan la Pava Negra, el Carpintero Selvático, el Gallito de Roca, el Heliodoxa Coronado, la Reinita Cerúlea, la Suelda Cejiamarilla, la Mochilera Variable, entre otras.", "Brindamos el servicio de observación de aves, trecking, cabalgatas y alojamiento."],
+    "youtube": "https://www.youtube.com/embed/Q3CaEF4-6ds?si=jKkP0ftUCML5qJ9Y",
+    "cellphone": "3136522344",
+    "email": "laleonabirding@gmail.com",
+    "facebook": "https://www.facebook.com/HaciendaLaLeona",
+    "instagram": "https://www.instagram.com/hacienda_la_leona/?hl=es",
+    "web": "https://www.haciendalaleona.com/",
+    "maps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63622.68867225873!2d-73.370481!3d4.697206!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e1551345ffab8b7%3A0xad144feef9b3464e!2sHacienda%20La%20Leona%20Birdwatching!5e0!3m2!1ses!2sco!4v1706760201587!5m2!1ses!2sco"
   },
   {
     "id": 2,
     "title": "Casa Trebol",
     "location": "Venecia",
     "background": "./assets/images/trebol/foto_casa_trebol.png",
-    "profile": "./assets/images/trebol/logo_casa_trebol.png"
+    "profile": "./assets/images/trebol/logo_casa_trebol.png",
+    "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non elit dui."
   },
   {
     "id": 3,
