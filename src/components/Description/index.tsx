@@ -11,7 +11,10 @@ export const Description: FC<DescriptionProps> = ({ description, id }) => {
   return (
     <div className="flex flex-col gap-3 text-white-color">
       {paragraphs.map((paragraph, index) => (
-        <p key={id} className="text-base font-quicksand">
+        <p
+          key={`description-paragraph-${id}-${index}`}
+          className="text-base font-quicksand"
+        >
           {paragraph}
         </p>
       ))}
