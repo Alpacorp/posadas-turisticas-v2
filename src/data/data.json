@@ -49,35 +49,67 @@
     "title": "Finca el Laguito",
     "location": "La Peña",
     "background": "./assets/images/laguito/foto_4_el_laguito.png",
-    "profile": "./assets/images/laguito/logo_el_laguito.png"
+    "profile": "./assets/images/laguito/logo_el_laguito.png",
+    "description": "En la FINCA TURÍSTICA EL LAGUITO, encontraras amplias zonas verdes, propias para realizar todo tipo de eventos. Contamos con espacios para realizar eventos de deportes extremos, retiros empresariales, entre otras muchas actividades al aire libre.",
+    "youtube": "https://www.youtube.com/embed/vY_YhgzcOh0?si=uNcNEtM4UJ_I1ywg",
+    "cellphone-1": "3204636849",
+    "email": "fincaturistica_ellaguito2@hotmail.com",
+    "facebook": "https://www.facebook.com/fincaturisticaellaguito/",
+    "maps": "https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15893.623104222954!2d-74.39568!3d5.198739!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1707316364729!5m2!1ses!2sco"
   },
   {
     "id": 5,
     "title": "Portal de las Cascadas",
     "location": "La Vega",
     "background": "./assets/images/cascadas/foto_5_portal_cascadas.png",
-    "profile": "./assets/images/cascadas/logo_portal_cascadas.png"
+    "profile": "./assets/images/cascadas/logo_portal_cascadas.png",
+    "description": ["Disfrute de un ambiente natural donde pueden encontrar diferentes tipos de actividades para que las disfruten usted y su familia, es un ambiente natural para disfrutar de un hermoso paisaje con una diversidad de flora y fauna para que usted pueda apreciar y poder disfrutar de nuestras instalaciones.", "Contamos con diferentes servios para usted y su familia como restaurante cabaña camping caminatas ecológicas caminatas por la quebrada contamos con amplias zonas de esparcimiento como tejo deportes extremos (torrentismo)"],
+    "youtube": "https://www.youtube.com/embed/CeG9vfPub7g?si=LY_dOcJSyKNHSMNk",
+    "cellphone-1": "3133568024",
+    "email": "nancycifuentes612@gmail.com",
+    "facebook": "https://www.facebook.com/portaldelascascadas/",
+    "maps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15897.398430497926!2d-74.310572!3d5.046945!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e40892002167399%3A0xfbc49a7954da3ce6!2sPortal%20de%20Las%20Cascadas!5e0!3m2!1ses!2sco!4v1707316748323!5m2!1ses!2sco"
   },
   {
     "id": 6,
     "title": "El Cielo",
     "location": "Tena",
     "background": "./assets/images/cielo/logo_6_el_cielo.png",
-    "profile": "./assets/images/cielo/logo-el-cielo-en-tena.png"
+    "profile": "./assets/images/cielo/logo-el-cielo-en-tena.png",
+    "description": "El Cielo es una experiencia ecológica y sensorial que te llenará de la energía vital de la naturaleza.",
+    "youtube": "https://www.youtube.com/embed/ruj7PZjVG1s?si=k3ec7tJ6ECTLd3Dl",
+    "cellphone-1": "3102709099",
+    "email": "elcieloentena@gmail.com",
+    "facebook": "https://www.facebook.com/elcieloentena/",
+    "instagram": "https://www.instagram.com/elcieloentena/",
+    "maps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15907.604312148702!2d-74.436081!3d4.611723!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f6db93bbeb2f9%3A0x8537ba9ee828a638!2sEl%20Cielo%20Biohospedaje!5e0!3m2!1ses!2sco!4v1707316928123!5m2!1ses!2sco"
   },
   {
     "id": 7,
     "title": "Museo Campesino",
     "location": "Gachancipá",
     "background": "./assets/images/campesino/foto_museo_campesino.png",
-    "profile": "./assets/images/campesino/logo_museo_campesino.png"
+    "profile": "./assets/images/campesino/logo_museo_campesino.png",
+    "description": ["El Museo da inicio en la casa campesina de bareque y barro con una antigüedad de construcción aproximada a los 130 años. Albergando una colección de piezas organizadas en secciones temáticas de:", "1. Cocina fogón de tres piedras. 2.Granero de Semillas Nativas y herramientas de labranza campesina. 3. Muestra de impresos religiosos y escritura del siglo XX . 4. Dormitorio tradicional en cuja y exhibición de vestuario época años 1950.", "La huerta campesina, gastronomía tradicional y tejidos artesanales son una muestra viva de los saberes y oficios patrimonio cultural de la región que se han conservado durante las generaciones de familias en el territorio de la alta montaña entre Gachancipa y Nemocón en la Sabana de Bogotá.", "Visita guiada a La Casa Museo - Muestra Cocina Tradicional - Talleres de Preparación de Quinoa - Muestra Vivencia de Oficios y Tejidos Artesanales."],
+    "youtube": "https://www.youtube.com/embed/7ATGNtuUcMw?si=Hgxo31h3tI2aRbKP",
+    "cellphone-1": "3103065762",
+    "email": "hola@elmuseocampesino.org",
+    "web": "https://www.elmuseocampesino.org/",
+    "facebook": "https://www.facebook.com/profile.php?id=100063633038169",
+    "instagram": "https://www.instagram.com/museocampesino/",
+    "maps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15897.599199408556!2d-73.881703!3d5.038745!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e406d73b836a3a5%3A0x7264d502f23dcfa7!2sEl%20Museo%20Campesino!5e0!3m2!1ses!2sco!4v1707317290956!5m2!1ses!2sco"
   },
   {
     "id": 8,
     "title": "Cabañas Paraíso",
     "location": "Sesquilé",
     "background": "./assets/images/paraiso/foto_8_cabanas_paraiso.png",
-    "profile": "./assets/images/paraiso/logos_paraiso.png"
+    "profile": "./assets/images/paraiso/logos_paraiso.png",
+    "description": ["Cabañas Paraiso es una finca con cabañas para alojar a nuestros huéspedes ofrecemos servicio de cabalgata.", "Pet Friendly Accommodation Vereda espigas, Sesquile, Cundinamarca"],
+    "youtube": "https://www.youtube.com/embed/LKPaK0Zt9yw?si=WISeCiMMIqi4TWkN",
+    "cellphone-1": "3138921110",
+    "web": "https://cabanas-paraiso-sesquile.negocio.site/",
+    "maps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15897.714494086636!2d-73.788796!3d5.03403!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4013cc111f53a9%3A0xd3b81a70a095e852!2sCaba%C3%B1as%20Paraiso%20sesquile!5e0!3m2!1ses!2sco!4v1707317643972!5m2!1ses!2sco"
   },
   {
     "id": 9,
