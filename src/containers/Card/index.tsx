@@ -2,7 +2,7 @@ import { FC } from "react";
 import iconGps from "@assets/images/icon_gps_blanco.png";
 import { CardLayout } from "@layouts/CardLayout";
 import { ProfilePhoto } from "@components/ProfilePhoto";
-import { InnerInfo } from "@containers/InnerInfo";
+import { InnerInfoCard } from "@containers/InnerInfoCard";
 import { MainName } from "@components/MainName";
 import { Divisor } from "@components/Divisor";
 
@@ -24,7 +24,7 @@ export const Card: FC<CardProps> = ({
   return (
     <CardLayout background={background} id={id}>
       <ProfilePhoto profile={profile} title={title} />
-      <InnerInfo>
+      <InnerInfoCard>
         <MainName title={title} />
         <Divisor />
         <div className="flex items-center gap-2">
@@ -35,7 +35,7 @@ export const Card: FC<CardProps> = ({
             {location}, Cundinamarca
           </h3>
         </div>
-      </InnerInfo>
+      </InnerInfoCard>
     </CardLayout>
   );
 };

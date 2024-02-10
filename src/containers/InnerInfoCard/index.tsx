@@ -1,9 +1,9 @@
 import { FC } from "react";
 
-interface InnerInfoProps {
+interface InnerInfoCardProps {
   children: React.ReactNode;
 }
 
-export const InnerInfo: FC<InnerInfoProps> = ({ children }) => {
+export const InnerInfoCard: FC<InnerInfoCardProps> = ({ children }) => {
   return <div className="flex flex-col gap-1">{children}</div>;
 };
