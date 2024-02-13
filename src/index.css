@@ -17,3 +17,7 @@
   scroll-behavior: smooth;
   font-family: var(--font-quicksand);
 }
+
+.no-scroll {
+  overflow: hidden;
+}

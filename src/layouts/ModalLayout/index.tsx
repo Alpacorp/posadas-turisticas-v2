@@ -4,6 +4,8 @@ import { Context } from "@context/Context";
 import data from "@data/data.json";
 import { Description } from "@components/Description";
 
+import "../../index.css";
+
 interface ModalData {
   id: number;
   title: string;
@@ -60,13 +62,32 @@ export const ModalLayout: FC = React.memo(() => {
     }
   }, [showModal, idModal]);
 
+  useEffect(() => {
+    if (showModal && idModal != null) {
+      const card = data.filter((card) => card.id === idModal);
+      setModalData(card[0]);
+    }
+
+    // Aquí agregamos o quitamos la clase al body
+    if (showModal) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+
+    // Este es un efecto de limpieza que se ejecuta cuando el componente se desmonta
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [showModal, idModal]);
+
   return (
     <>
       {showModal && (
         <div
-          className={`fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-color bg-opacity-90 z-40 overflow-auto`}
+          className={`fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-color bg-opacity-90 z-40 overflow-y-auto overflow-x-auto`}
         >
-          <div className="absolute flex flex-col justify-center items-center h-auto max-w-2xl w-full bg-salmon-color">
+          <div className="relative flex flex-col justify-center items-center h-auto max-w-3xl w-full bg-salmon-color overflow-y-auto m-auto">
             <img src={background} alt="test" width={500} height={500} />
             <div className="flex flex-col justify-start items-center gap-3 text-white-color">
               <h2 className="text-2xl font-quicksand">{title}</h2>
@@ -101,7 +122,15 @@ export const ModalLayout: FC = React.memo(() => {
                   <a href={`${facebook}`}>icono Facebook</a>
                 </div>
                 <div>
-                  <a href={`${youtube}`}>icono YouTube</a>
+                  <iframe
+                    width="560"
+                    height="315"
+                    src={youtube}
+                    title={`Video ${title}`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen={true}
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
                 </div>
                 <div>
                   <a href={`${tiktok}`}>icono TikTok</a>
@@ -117,7 +146,7 @@ export const ModalLayout: FC = React.memo(() => {
                     src={maps}
                     width="600"
                     title={`Ubicación ${title}`}
-                    height="450"
+                    height="150"
                     style={{ border: 0 }}
                     loading="lazy"
                     allowFullScreen={true}
