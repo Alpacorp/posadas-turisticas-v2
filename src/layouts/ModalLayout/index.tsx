@@ -60,22 +60,13 @@ export const ModalLayout: FC = React.memo(() => {
       const card = data.filter((card) => card.id === idModal);
       setModalData(card[0]);
     }
-  }, [showModal, idModal]);
 
-  useEffect(() => {
-    if (showModal && idModal != null) {
-      const card = data.filter((card) => card.id === idModal);
-      setModalData(card[0]);
-    }
-
-    // Aquí agregamos o quitamos la clase al body
     if (showModal) {
       document.body.classList.add("no-scroll");
     } else {
       document.body.classList.remove("no-scroll");
     }
 
-    // Este es un efecto de limpieza que se ejecuta cuando el componente se desmonta
     return () => {
       document.body.classList.remove("no-scroll");
     };
