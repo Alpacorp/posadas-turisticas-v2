@@ -5,7 +5,11 @@
     "location": "Ubalá",
     "background": "./assets/images/leona/foto_1_hacienda_la_leona.jpg",
     "profile": "./assets/images/leona/logo_la_leona.png",
-    "description": ["La Hacienda la Leona pertenece a la Ruta del Agua, proyecto descrito por la Gobernación de Cundinamarca, marcándonos como un centro rico en fuentes hídricas; la hacienda está ubicada en la vereda Algodones en el piedemonte llanero donde limita al occidente con el Embalse del Guavio, al suroccidente con el PNN Chingaza, al oriente con Medina y al norte con el río Guavio.", "Comprende tanto bosque seco tropical como bosque húmedo premontano y bosque de niebla; características ideales para la proliferación de la biodiversidad. Es una zona rica en fauna y flora. Se cuenta con un reporte por encima de las doscientas especies de aves, entre las que se destancan la Pava Negra, el Carpintero Selvático, el Gallito de Roca, el Heliodoxa Coronado, la Reinita Cerúlea, la Suelda Cejiamarilla, la Mochilera Variable, entre otras.", "Brindamos el servicio de observación de aves, trecking, cabalgatas y alojamiento."],
+    "description": [
+      "La Hacienda la Leona pertenece a la Ruta del Agua, proyecto descrito por la Gobernación de Cundinamarca, marcándonos como un centro rico en fuentes hídricas; la hacienda está ubicada en la vereda Algodones en el piedemonte llanero donde limita al occidente con el Embalse del Guavio, al suroccidente con el PNN Chingaza, al oriente con Medina y al norte con el río Guavio.",
+      "Comprende tanto bosque seco tropical como bosque húmedo premontano y bosque de niebla; características ideales para la proliferación de la biodiversidad. Es una zona rica en fauna y flora. Se cuenta con un reporte por encima de las doscientas especies de aves, entre las que se destancan la Pava Negra, el Carpintero Selvático, el Gallito de Roca, el Heliodoxa Coronado, la Reinita Cerúlea, la Suelda Cejiamarilla, la Mochilera Variable, entre otras.",
+      "Brindamos el servicio de observación de aves, trecking, cabalgatas y alojamiento."
+    ],
     "youtube": "https://www.youtube.com/embed/Q3CaEF4-6ds?si=jKkP0ftUCML5qJ9Y",
     "cellphone1": "3136522344",
     "email": "laleonabirding@gmail.com",
@@ -34,7 +38,15 @@
     "location": "Anolaima",
     "background": "./assets/images/mikhuna/foto_3_mikhuna.png",
     "profile": "./assets/images/mikhuna/logo_mikhuna.png",
-    "description": ["Bienvenidos a Mikhuna un lugar magico perdido en la montaña. Posada Rural dedicada al Bienestar y Salud.", "¿En busca de nuevas experiencias? Sal de la ciudad y busca tu yo interior.", "Terapias: Date tiempo para consentirte y encontrarte contigo a través de terapias ayurvédicas y mesoamericanas.", "Agroecología: Huertas agroecológicas con productos naturales, y accesorias para tus cultivos.", "Construcción: Quioscos, cabañas, adecuaciones, muebles y lo que se te ocurra en madera. Especializados en guadua y/o bambú.", "Senderismo: Ven piérdete entre los guardianes de madera de la montaña y entrega tus preocupaciones al frio de la creciente de Anolaima.", "Hospedaje: Alojate en nuestra cabaña tradicional colombiana."],
+    "description": [
+      "Bienvenidos a Mikhuna un lugar magico perdido en la montaña. Posada Rural dedicada al Bienestar y Salud.",
+      "¿En busca de nuevas experiencias? Sal de la ciudad y busca tu yo interior.",
+      "Terapias: Date tiempo para consentirte y encontrarte contigo a través de terapias ayurvédicas y mesoamericanas.",
+      "Agroecología: Huertas agroecológicas con productos naturales, y accesorias para tus cultivos.",
+      "Construcción: Quioscos, cabañas, adecuaciones, muebles y lo que se te ocurra en madera. Especializados en guadua y/o bambú.",
+      "Senderismo: Ven piérdete entre los guardianes de madera de la montaña y entrega tus preocupaciones al frio de la creciente de Anolaima.",
+      "Hospedaje: Alojate en nuestra cabaña tradicional colombiana."
+    ],
     "youtube": "https://www.youtube.com/embed/9pqfpZTDx6Q?si=RXl94LURV4al3igR",
     "cellphone1": "3138156299",
     "cellphone2": "3114560486",
@@ -63,7 +75,10 @@
     "location": "La Vega",
     "background": "./assets/images/cascadas/foto_5_portal_cascadas.png",
     "profile": "./assets/images/cascadas/logo_portal_cascadas.png",
-    "description": ["Disfrute de un ambiente natural donde pueden encontrar diferentes tipos de actividades para que las disfruten usted y su familia, es un ambiente natural para disfrutar de un hermoso paisaje con una diversidad de flora y fauna para que usted pueda apreciar y poder disfrutar de nuestras instalaciones.", "Contamos con diferentes servios para usted y su familia como restaurante cabaña camping caminatas ecológicas caminatas por la quebrada contamos con amplias zonas de esparcimiento como tejo deportes extremos (torrentismo)"],
+    "description": [
+      "Disfrute de un ambiente natural donde pueden encontrar diferentes tipos de actividades para que las disfruten usted y su familia, es un ambiente natural para disfrutar de un hermoso paisaje con una diversidad de flora y fauna para que usted pueda apreciar y poder disfrutar de nuestras instalaciones.",
+      "Contamos con diferentes servios para usted y su familia como restaurante cabaña camping caminatas ecológicas caminatas por la quebrada contamos con amplias zonas de esparcimiento como tejo deportes extremos (torrentismo)"
+    ],
     "youtube": "https://www.youtube.com/embed/CeG9vfPub7g?si=LY_dOcJSyKNHSMNk",
     "cellphone1": "3133568024",
     "email": "nancycifuentes612@gmail.com",
@@ -90,7 +105,12 @@
     "location": "Gachancipá",
     "background": "./assets/images/campesino/foto_museo_campesino.png",
     "profile": "./assets/images/campesino/logo_museo_campesino.png",
-    "description": ["El Museo da inicio en la casa campesina de bareque y barro con una antigüedad de construcción aproximada a los 130 años. Albergando una colección de piezas organizadas en secciones temáticas de:", "1. Cocina fogón de tres piedras. 2.Granero de Semillas Nativas y herramientas de labranza campesina. 3. Muestra de impresos religiosos y escritura del siglo XX . 4. Dormitorio tradicional en cuja y exhibición de vestuario época años 1950.", "La huerta campesina, gastronomía tradicional y tejidos artesanales son una muestra viva de los saberes y oficios patrimonio cultural de la región que se han conservado durante las generaciones de familias en el territorio de la alta montaña entre Gachancipa y Nemocón en la Sabana de Bogotá.", "Visita guiada a La Casa Museo - Muestra Cocina Tradicional - Talleres de Preparación de Quinoa - Muestra Vivencia de Oficios y Tejidos Artesanales."],
+    "description": [
+      "El Museo da inicio en la casa campesina de bareque y barro con una antigüedad de construcción aproximada a los 130 años. Albergando una colección de piezas organizadas en secciones temáticas de:",
+      "1. Cocina fogón de tres piedras. 2.Granero de Semillas Nativas y herramientas de labranza campesina. 3. Muestra de impresos religiosos y escritura del siglo XX . 4. Dormitorio tradicional en cuja y exhibición de vestuario época años 1950.",
+      "La huerta campesina, gastronomía tradicional y tejidos artesanales son una muestra viva de los saberes y oficios patrimonio cultural de la región que se han conservado durante las generaciones de familias en el territorio de la alta montaña entre Gachancipa y Nemocón en la Sabana de Bogotá.",
+      "Visita guiada a La Casa Museo - Muestra Cocina Tradicional - Talleres de Preparación de Quinoa - Muestra Vivencia de Oficios y Tejidos Artesanales."
+    ],
     "youtube": "https://www.youtube.com/embed/7ATGNtuUcMw?si=Hgxo31h3tI2aRbKP",
     "cellphone1": "3103065762",
     "email": "hola@elmuseocampesino.org",
@@ -105,7 +125,10 @@
     "location": "Sesquilé",
     "background": "./assets/images/paraiso/foto_8_cabanas_paraiso.png",
     "profile": "./assets/images/paraiso/logos_paraiso.png",
-    "description": ["Cabañas Paraiso es una finca con cabañas para alojar a nuestros huéspedes ofrecemos servicio de cabalgata.", "Pet Friendly Accommodation Vereda espigas, Sesquile, Cundinamarca"],
+    "description": [
+      "Cabañas Paraiso es una finca con cabañas para alojar a nuestros huéspedes ofrecemos servicio de cabalgata.",
+      "Pet Friendly Accommodation Vereda espigas, Sesquile, Cundinamarca"
+    ],
     "youtube": "https://www.youtube.com/embed/LKPaK0Zt9yw?si=WISeCiMMIqi4TWkN",
     "cellphone1": "3138921110",
     "website": "https://cabanas-paraiso-sesquile.negocio.site/",
@@ -116,7 +139,17 @@
     "title": "Cabañas y Camping Santana",
     "location": "Sesquilé",
     "background": "./assets/images/santana/logo_9_cabanas_santana.png",
-    "profile": "./assets/images/santana/logo_cabanas_santana.png"
+    "profile": "./assets/images/santana/logo_cabanas_santana.png",
+    "description": [
+      "Cabaña y Camping Santana ubicado a 500 mts de la laguna del cacique Guatavita en Sesquile Cundinamarca; a solo uno hora de Bogotá!",
+      "Pet friendly - Fogata - Servicio de Parking - Desayuno",
+      "Tranquilidad, seguridad y Desconexión"
+    ],
+    "youtube": "https://www.youtube.com/embed/nKp1BLtTZdQ?si=4qUj3A67p9N43cN7",
+    "cellphone1": "3222285900",
+    "email": "sebaschanvega@hotmail.com",
+    "facebook": "https://www.facebook.com/santanacampingcabana/",
+    "maps": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127189.82716801761!2d-73.788852!3d4.992375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e400da42adbb8e3%3A0x774ce16c07938a12!2sTierra%20Negra%2C%20Sesquil%C3%A9%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1707950307123!5m2!1ses!2sco"
   },
   {
     "id": 10,
