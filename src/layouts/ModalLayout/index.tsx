@@ -79,12 +79,30 @@ export const ModalLayout: FC = React.memo(() => {
           className={`fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-color bg-opacity-90 z-40 overflow-y-auto overflow-x-auto`}
         >
           <div className="relative flex flex-col justify-center items-center h-auto max-w-3xl w-full bg-salmon-color overflow-y-auto m-auto">
-            <img src={background} alt="test" width={500} height={500} />
+            <button
+              className="absolute top-0 right-0 m-4 z-50"
+              onClick={() => {
+                setShowModal(false);
+                setIdModal(0);
+              }}
+            >
+              X
+            </button>
+            <h2 className="text-2xl font-quicksand">{title}</h2>
+            <h3 className="text-base leading-none max-w-52 w-full font-quicksand">
+              {location}, Cundinamarca
+            </h3>
+            <div
+              className="w-full bg-no-repeat bg-cover bg-center shadow-md relative"
+              style={{
+                backgroundImage: `url(${background})`,
+                backgroundPositionY: "35%",
+                backgroundPositionX: "center",
+              }}
+            >
+              <img src={profile} alt="test" width={96} height={96} />
+            </div>
             <div className="flex flex-col justify-start items-center gap-3 text-white-color">
-              <h2 className="text-2xl font-quicksand">{title}</h2>
-              <h3 className="text-base leading-none max-w-52 w-full font-quicksand">
-                {location}, Cundinamarca
-              </h3>
               <div>
                 {description && (
                   <Description id={modalData.id} description={description} />
